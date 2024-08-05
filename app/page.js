@@ -1,5 +1,5 @@
 'use client'
-
+import { Analytics } from "@vercel/analytics/react"
 import { firestore } from '@/firebase'
 import { Box, Button, Modal, Stack, TextField, Typography } from '@mui/material'
 import {
